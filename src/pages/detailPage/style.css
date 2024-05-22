@@ -1,0 +1,53 @@
+.detailpage{
+    font-family: "Roboto", sans-serif;
+    background: #4C75A3;
+    height: 100dvh;
+}
+.container {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    position: relative;
+    top: 10px;
+}
+  
+.title_d{
+    text-align: start;
+}
+.details{
+  box-shadow: 
+  rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.details h2{
+    text-align: center;
+}
+  
+.big-photo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  
+.big-photo img {
+    width: 100%;
+    height: auto;
+}
+.about{
+  margin: 10px 0 0 15px;
+  text-align: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.about div:last-child{
+    margin-bottom: 20px;
+}
+.ch{
+    position: relative;
+    right: 150px;
+}

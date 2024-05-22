@@ -1,0 +1,34 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100dvh;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+.btn1{
+  background: linear-gradient(112.67deg, #AD36CB 26.16%, #333333 67.37%);
+}
+.btn2{
+  background: linear-gradient(112.67deg, rgb(61, 58, 107) 9.16%, rgb(0, 0, 53)  90.37%);
+}

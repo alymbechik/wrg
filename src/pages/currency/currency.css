@@ -1,0 +1,46 @@
+.currency{
+  background: rgb(0, 0, 53);
+  font-family: "Nunito", sans-serif;
+}
+.table {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  border-bottom: 1px solid rgb(61, 58, 107);
+  align-items: center;
+  padding: 10px;
+  margin: 0 5vh 0 5vh;
+  margin-left: 5vh;
+  color: white;
+}
+.valuta{
+  display: grid;
+  pointer-events: none;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr;
+  margin-left: 80vh;
+  color: #fff;
+}
+.flag{
+  margin: 2vh .5rem 0 0;
+  position: relative;
+  top: 3px;
+}
+.table-color:hover{
+  background: var(--title-bg);
+  color: white;
+  cursor: help;
+}
+.text-blue-muted {
+  --tw-text-opacity: 1;
+  color: rgba(126, 139, 182, var(--tw-text-opacity));
+}
+.title_c{
+  text-decoration: underline;
+  color: #fff;
+}
+.title_c:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.value{
+  text-align: center;
+}

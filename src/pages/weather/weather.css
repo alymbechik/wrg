@@ -1,0 +1,14 @@
+.weather{
+    padding-top: 38px;
+    font-family: 'Poppins', 'Inter',sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #252323;
+    height: 100dvh;
+}
+.incard{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
